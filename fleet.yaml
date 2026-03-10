@@ -1,1 +1,7 @@
 defaultNamespace: react-node-cms
+namespaceLabels:
+  field.cattle.io/projectId: p-6bdjb
+namespaceAnnotations:
+  field.cattle.io/projectId: "local:p-6bdjb"
+helm:
+  takeOwnership: true

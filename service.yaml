@@ -3,10 +3,8 @@ kind: Service
 metadata:
   name: react-node-cms
   namespace: react-node-cms
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: react-node-cms
   ports:
